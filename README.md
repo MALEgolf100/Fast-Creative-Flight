@@ -8,3 +8,7 @@ These config options control the speed. Please change these to your preferred va
 "speedBoostX":0.1, <br>
 "speedBoostY":0.5, <br>
 "speedBoostZ":0.1 <br>
+
+A link to the community discord can be found here:
+
+https://discord.gg/hzMK4JyP6r
