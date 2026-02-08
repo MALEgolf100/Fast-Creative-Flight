@@ -3,11 +3,13 @@
   "id": "fast_creative_flight",
   "version": "${version}",
   "name": "Fast Creative Flight",
-  "description": "Re adds the MC-163218 bug to the game allowing players to sneak while in GUIs",
-  "authors": [],
+  "description": "This mod makes creative flying faster by sprinting!",
+  "authors": [
+    "MALEgolf100"
+  ],
   "contact": {},
   "license": "All-Rights-Reserved",
-  "icon": "assets/fast_creative_flight/icon.png",
+  "icon": "assets/icon.png",
   "environment": "client",
   "entrypoints": {
     "fabric-datagen": [
