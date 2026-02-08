@@ -1,0 +1,9 @@
+{
+  "config.fast-creative-flight.title": "Fast Creative Flight",
+  "config.fast-creative-flight.general": "General",
+  "config.fast-creative-flight.enabled": "Enable mod",
+  "config.fast-creative-flight.enabled_on_servers": "Enable on servers",
+  "config.fast-creative-flight.x_speed": "X speed",
+  "config.fast-creative-flight.y_speed": "Y speed",
+  "config.fast-creative-flight.z_speed": "Z speed"
+}
