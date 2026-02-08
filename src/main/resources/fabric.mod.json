@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "fast_creative_flight",
+  "version": "${version}",
+  "name": "Fast Creative Flight",
+  "description": "Re adds the MC-163218 bug to the game allowing players to sneak while in GUIs",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/fast_creative_flight/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.fastcreativeflight.fast_creative_flight.client.Fast_creative_flightDataGenerator"
+    ],
+    "client": [
+      "com.fastcreativeflight.fast_creative_flight.client.Fast_creative_flightClient"
+    ],
+    "main": [
+      "com.fastcreativeflight.fast_creative_flight.Fast_creative_flight"
+    ]
+  },
+  "mixins": [
+    "fast_creative_flight.mixins.json",
+    {
+      "config": "fast_creative_flight.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
